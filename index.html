@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Daniel Díaz</title>
+        <!-- <link rel="icon" type="image/png" href="./img/icon.png"> -->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+        <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 992px)">
+        <script defer src="./main.js"></script>
+        <script src="https://kit.fontawesome.com/56bf21513d.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600;1,700;1,800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <p class="logo"> <span><</span> DDz <span>/></span></p>
+                <button class="nav-toggle">
+                    <i id="nav-toggle-icon" class="fas fa-bars"></i>
+                    <!-- <i class="fas fa-times"></i> -->
+                </button>
+            </div>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a class="enlaces" href="#profile-section">Home</a></li>
+                    <li><a class="enlaces" href="#about-section">About</a></li>
+                    <li><a class="enlaces" href="#service-section">Services</a></li>
+                    <li><a class="enlaces" href="#projects-section">Portfolio</a></li>
+                    <li><a class="enlaces" href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a class="enlaces-desktop" href="#profile-section">Home</a></li>
+                    <li><a class="enlaces-desktop" href="#about-section">About</a></li>
+                    <li><a class="enlaces-desktop" href="#service-section">Services</a></li>
+                    <li><a class="enlaces-desktop" href="#projects-section">Portfolio</a></li>
+                    <li><a class="enlaces-desktop" href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section id="profile-section" class="profile-section">
+                <div class="profile__img-container">
+                    <img src="./img/fotoPerfil.jpg" alt="Daniel Díaz foto de perfil">
+                </div>
+                <div class="profile__p-container">
+                    <p class="profile__p-one">Hi!</p>
+                    <p class="profile__p-two">I'm Daniel Díaz</p>
+                    <p class="profile__p-three">Frontend Developer</p>
+                </div>
+            </section>
+            <section id="about-section" class="about-section">
+                <h1>About Me</h1>
+                <div class="about-container">
+                    <div class="div-about-section">
+                    <h2>Who am I?</h2>
+                    <p>I'm Daniel Díaz, a Web Developer 
+                        passionate about programming and
+                        who likes to constantly learn new things
+                        from it. I love working and collaborating
+                        as a team, but I'am also good at working
+                        alone. <em>I am looking</em> to participate in web
+                        projects to gain work experience and new
+                        knowledge and thus improve my portfolio.</p>
+                    </div>
+                    <div class="div-skills-section">
+                        <h2>My Skills</h2>
+                        <div class="img__skills-section">
+                            <img src="./img/htmlLogo.png" alt="Logo HTML">
+                            <img src="./img/cssLogo.png" alt="Logo CSS">
+                            <img src="./img/jsLogo.png" alt="Logo JavaScript">
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="service-section" class="service-section">
+                <h1>Services</h1>
+                <h2>Service I offer to my clients</h2>
+                <div class="service-grid-container">
+                    <article class="service-grid-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h2>Full Responsive</h2>
+                        <p>Your site will display property on any device,
+                            including desktop computers, tablets and
+                            mobile phones.</p>
+                    </article>
+                    <article class="service-grid-item">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h2>Creative Design</h2>
+                        <p>A good and attractive web design helps
+                            you keep your leads on your site, which
+                            is the digital face of your business.</p>
+                    </article>
+                    <article class="service-grid-item">
+                        <i class="fas fa-code"></i>
+                        <h2>Development</h2>
+                        <p>I know the importance of web design and
+                            can help you créate a website you'll love.</p>
+                    </article>
+                    <article class="service-grid-item">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h2>Social Media Integration</h2>
+                        <p>There are a lot of social platforms out
+                            there, and you should promote your
+                            pressence on them on your website.</p>
+                    </article>
+                    <article class="service-grid-item">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h2>Performance</h2>
+                        <p>Retaining users is crucial to improving conversions. High-performing sites engage and retain users</p>
+                    </article>
+                    <article class="service-grid-item">
+                        <i class="fas fa-crosshairs"></i>
+                        <h2>SEO</h2>
+                        <p>I will optimize your site with intelligent Search Engine Optimization strategy to generate leads.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="projects-section" class="projects-section">
+                <h1>Portfolio</h1>
+                <h2>Here you can see the projects I have worked on.</h2>
+                <div class="projects-grid-container">
+                    <img src="./img/static-responsive-website-html5-and-css3-only.jpg" alt="">
+                    <img src="./img/static-responsive-website-html5-and-css3-only.jpg" alt="">
+                    <img src="./img/static-responsive-website-html5-and-css3-only.jpg" alt="">
+                </div>
+            </section>
+            <section id="contact-section" class="contact-section">
+                <h1>Contact</h1>
+                <h2>Contact me if you want us to work together.</h2>
+                <div class="contact-grid-container">
+                    <a href="mailto:daniel13cba2002@gmail.com" target="_blank">
+                        <i class="far fa-envelope"></i>
+                        <p>Mail Me</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-diaz-89a669210/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <p>Contact Me</p>
+                    </a>
+                    <a href="https://www.instagram.com/daniiel.diazz/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <p>Follow Me</p>
+                    </a>
+                    <a href="https://twitter.com/DaniiielDz/" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <p>Follow Me</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

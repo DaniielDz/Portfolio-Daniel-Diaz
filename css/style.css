@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 5rem;
+    padding: 1rem 3rem;
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0) 0%, rgba(0,0,0,.80));
+    color: #fff;
+}
+.header-container {
+    display: flex;
+    justify-content:space-between;
+}
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.logo span{
+    font-weight: 800;
+    color: #d30000;
+}
+.nav-toggle {
+    background: none;
+    border: none;
+}
+.nav-toggle i {
+    font-size: 3rem;
+    color:#d30000;
+}
+.nav-toggle i:hover {
+    color: #d30000;
+}
+.fa-times {
+    display: none;
+}
+.mobile-nav {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 5rem;
+    left: 100%;
+    z-index: 10;
+    background: linear-gradient(rgba(0,0,0, .80) , rgba(0,0,0, .90));
+    text-align: center;
+    transition: left .5s;
+}
+.mobile-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.mobile-nav .enlaces {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    width: 70%;
+    font-size: 2rem;
+    padding: 3rem;
+    border-bottom: 1px solid #fff;
+}
+.desktop-nav {
+    display: none;
+}
+.nav-menu--visible {
+    left: 0;
+}
+
+/* Fin del Header */
+
+/* Sección Uno */
+.profile-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0, .7)) ,url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.profile__img-container {
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 7rem;
+}
+.profile__img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 1.5px solid #fff;
+}
+
+.profile__p-container {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.profile__p-one {
+    text-align: center;
+}
+.profile__p-two {
+    text-align: center;
+    font-weight: 800;
+    color: #FF0000;
+}
+.profile__p-three {
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+}
+/* Fin Sección Uno */
+
+/* Sección Dos */
+
+/* About Section */
+.about-section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+ }
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.about-section h1 {
+    margin: 3rem;
+    padding-top: 5rem;
+}
+.div-about-section p{
+    width: 95%;
+    margin: 0  auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: start;
+}
+/* Skills Section */
+.div-skills-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+}
+.img__skills-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    justify-items: center;
+}
+.img__skills-section img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+}
+/* Fin sección dos */
+
+/* Sección Tres */
+.service-section {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.service-section h1 {
+    margin-bottom: 3rem;
+}
+.service-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
+}
+
+.service-grid-item {
+    width: 80%;
+    height: 90%;
+    padding: 2rem;
+    margin-top: 3.5rem;
+    box-shadow: 0 0 1rem #222;
+    border-radius: 2rem;
+
+    /* width: 70%;
+    height: 100%;
+    margin-top: 3.5rem; */
+}
+.service-grid-item i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.fa-pencil-ruler {
+    color: #FF1F00;
+}
+.fa-code {
+    color: #e77c04;
+}
+.fa-thumbs-up {
+    color: #0D4DE1;
+}
+.fa-tachometer-alt {
+    color:#079612;
+}
+.fa-crosshairs {
+    font-size: 2.8rem !important;
+    color:#FF1F00;
+}
+.fas:hover {
+    color: #333;
+}
+.service-grid-item h2{
+    font-weight: 600;
+}
+.service-grid-item p {
+    font-size: 1.5rem;
+}
+/* Fin sección tres */
+
+/* Sección Cuatro */
+.projects-section {
+    width: 100%;
+    height: auto;
+    margin-top: 7rem;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.projects-section h1 {
+    margin-bottom: 3rem;
+}
+.projects-section h2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 2rem;
+    margin-top: 5rem;
+}
+.projects-grid-container img {
+    width: 30rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    box-shadow: 0 0 1rem #000;
+}
+/* Fin Seccón Cuatro */
+
+/* Sección Cinco */
+.contact-section {
+    width: 100%;
+    height: auto;
+    margin: 10rem 0;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.contact-section h1 {
+    margin-bottom: 3rem;
+}
+.contact-grid-container {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+.contact-grid-container a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.contact-grid-container a i{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.contact-grid-container a i:hover {
+    color:#333;
+}
+.contact-grid-container .fa-envelope {
+    color: #FF0000;
+}
+.contact-grid-container .fa-linkedin-in{
+    color: #0e76a8;
+}
+.contact-grid-container .fa-twitter {
+    color: #1DA1F2;
+}
+.contact-grid-container .fa-instagram {
+    color: #833AB4;
+}
+/* Fin Sección Cinco */

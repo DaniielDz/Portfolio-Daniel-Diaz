@@ -1,0 +1,104 @@
+/* Header */
+.header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: linear-gradient(rgba(0,0,0) 0%, rgba(0,0,0,.70));
+}
+.nav-toggle {
+    display: none;
+}
+.mobile-nav {
+    display: none;
+}
+.desktop-nav {
+    display: block;
+}
+.desktop-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.enlaces-desktop {
+    font-size: 2rem;
+    color: #d30000;
+    font-weight: 700;
+    margin-right: 2rem;
+    text-decoration:none;
+    transition: .5s color;
+}
+.enlaces-desktop:hover {
+    color: #fff;
+}
+/* Fin del Header */
+
+/* Sección Dos */
+
+/* About Section */
+.about-section {
+    margin: 0;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+ }
+.about-section h1 {
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+}
+.div-about-section {
+    width: 50%;
+}
+.div-about-section p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+/* Skills Section */
+.div-skills-section {
+    width: 50%;
+    margin: 0;
+}
+.img__skills-section {
+    width: 90%;
+    margin: 3rem 5rem;
+}
+/* Fin sección dos */
+
+/* Sección Tres */
+
+.service-grid-container {
+    margin-top: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.service-grid-item {
+    width: 80%;
+    height: 90%;
+    padding: 2rem;
+    margin-top: 3.5rem;
+    box-shadow: 0 0 1rem #222;
+    border-radius: 2rem;
+}
+/* Fin sección tres */
+
+/* Sección Cuatro */
+.projects-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 10rem;
+}
+/* Fin Seccón Cuatro */
+
+/* Sección Cinco */
+.contact-section {
+    margin: 5rem 0;
+}
+.contact-grid-container {
+    margin-top: 10rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+/* Fin Sección Cinco */

@@ -1,0 +1,30 @@
+/* Sección Dos */
+
+.div-about-section p{
+    width: 75%;
+}
+/* Fin sección dos */
+
+/* Sección Tres */
+
+.service-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* Fin sección tres */
+
+/* Sección Cuatro */
+.projects-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+/* Fin Seccón Cuatro */
+
+/* Sección Cinco */
+
+.contact-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+/* Fin Sección Cinco */
